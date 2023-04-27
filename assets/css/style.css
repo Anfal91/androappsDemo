@@ -3699,7 +3699,7 @@ header.style3 nav > div > ul > li > a:before {
 }
 nav > div > ul + form {
   margin-left: 25px;
-  margin-top: 28px;
+  margin-top: 34px;
   float:right;
 }
 nav > div > form {
@@ -3708,7 +3708,6 @@ nav > div > form {
   position: relative;
   -webkit-border-radius: 40px;
   border-radius: 40px;
-  overflow: hidden;
 }
 nav > div > form input {
   border: 1px solid #e2e2e2;
@@ -3725,7 +3724,8 @@ nav > div > form button {
   top: 0;
   bottom: 0;
   color: #fff;
-  width: 100px;
+  /* width: 100px; */
+  padding: 0 10px;
   font-size: 14px;
 }
 nav > div > form button:hover,
@@ -4040,6 +4040,9 @@ nav > div > form button:focus {background-color: #333;}
   width: 100%;
 }
 .servs-wrap .srv-bx4 {margin-bottom: 30px;}
+.srv-bx4 i img{
+  height: 300px;
+}
 .srv-bx4 {
   background-color: #f7f6fc;
   float: left;
